@@ -83,7 +83,7 @@ body.dark-mode {
 }
 
 .menu-button:hover{
-   background-color: var(--blue-bulletin);
+  background-color: var(--blue-bulletin);
   border: 1.5px solid var(--news-flash);
 }
 
@@ -209,22 +209,22 @@ h2{
 }
 
 #feat-grid div{
-    margin-bottom:1.5em;
-    margin-right:.5em;
-    margin-left: .5em;
-    padding: 1em;
-    display: grid;
-    gap: 15px;
-    outline: 1px solid var(--blue-bulletin);
-    box-shadow: var(--shadow);
-    transition: var(--transition);
+ margin-bottom:1.5em;
+ margin-right:.5em;
+ margin-left: .5em;
+ padding: 1em;
+ display: grid;
+ gap: 15px;
+ outline: 1px solid var(--blue-bulletin);
+ box-shadow: var(--shadow);
+ transition: var(--transition);
 }
 
 #feat-grid{
-    display:flex;
-    flex-direction: column;
-    align-items: stretch;
-    height: 100%
+  display:flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%
 }
 
 #feat-grid h3{
@@ -381,17 +381,17 @@ footer ul li a{
   }
 
   #news-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 12px;
   }
 
   #feat-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 12px;
   }
 
   .row{
@@ -443,16 +443,16 @@ header, footer{
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference*/
 
 @media (prefers-color-scheme: dark){
-body{
-        background: var(--truth-text);
-        color: var(--watchdog-white);
+  body{
+    background: var(--truth-text);
+    color: var(--watchdog-white);
     }
 }
 
 @media (prefers-color-scheme: light){
-body{
-        background: var(--watchdog-white);
-        color: var(--truth-text);
+  body{
+    background: var(--watchdog-white);
+    color: var(--truth-text);
     }
 }
 
